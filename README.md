@@ -1,34 +1,32 @@
 # Nonlinear Control of an Inverted Pendulum System
 
-This project presents a comparative study of four control strategies for stabilizing an inverted pendulum system:
+The inverted pendulum is a highly nonlinear and inherently unstable dynamic system widely used as a benchmark in control engineering research.  
+Its stabilization requires precise control to maintain the pendulum in the upright position while simultaneously regulating the cart motion.
 
-🔹Linear Quadratic Regulator (LQR)
+This project presents a comparative study of four control strategies:
 
-🔹Sliding Mode Control (SMC)
+🔹 Linear Quadratic Regulator (LQR)  
 
-🔹Terminal Sliding Mode Control (TSMC)
+🔹 Sliding Mode Control (SMC)  
 
-🔹Integral Sliding Mode Control (ISMC)
+🔹 Terminal Sliding Mode Control (TSMC)  
 
-The main objective is to:
+🔹 Integral Sliding Mode Control (ISMC)  
 
-🔸Maintain the pendulum in the upright position
+## Objective
 
-🔸Control the cart position
+The main objectives of this study are:
 
-🔸Ensure robustness under varying reference signals and external disturbances
+🔸 Maintain the pendulum in the upright equilibrium position  
 
-The inverted pendulum is a classic benchmark for nonlinear and unstable systems, making it an ideal platform for evaluating control performance.
+🔸 Control the cart position accurately  
 
-# Objectives
+🔸 Achieve robust performance under varying reference signals  
 
-🔸Stabilize the inherently unstable inverted pendulum
+🔸 Improve transient response characteristics (rise time and settling time)  
 
-🔸Achieve accurate reference tracking
+🔸 Reduce steady-state error  
 
-🔸Improve transient response performance
+🔸 Enhance robustness against external disturbances  
 
-🔸Enhance robustness against disturbances
-
-🔸Compare linear and nonlinear control approaches
-
+🔸 Compare linear and nonlinear control approaches  
